@@ -77,6 +77,17 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
 
 <img src="https://i.imgur.com/0MXD6vf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
+- Go back to Log Analytic Workspace to connect it to the Virtual Machine --> Click your workspace --> Then Virtual Machines.
+
+<img src="https://i.imgur.com/pjj49H9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Click VM name --> Then connect
+
+<img src="https://i.imgur.com/uiQh3vM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/9AtpjCM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
+
 
    
   
