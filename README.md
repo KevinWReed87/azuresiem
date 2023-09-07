@@ -46,8 +46,37 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
 
    - For destination port range put * for anything --> For protocal any --> For action allow --> Priority - 100 --> Name DANGER_ANY_IN
    - This will allow all traffic from the internet into the virtual machine. Makes the VM very discoverable tp TCP Pings, ICMP Pings and so forth. Don't want the VM to drop any traffic, want it to be very discoverable for for lab purposes.
+   - Click add --> OK --> Review+Create-->Create
 
    <img src="https://i.imgur.com/VAIjndR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+   <img src="https://i.imgur.com/bYJO0Ly.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+   <img src="https://i.imgur.com/ngpGEfi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+   <img src="https://i.imgur.com/rWOHTJC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Create a Log Abalytics Workspace</h2>
+
+  - Search log analytics workspace --> Create --> Resource Group (Previous One Created) --> Name (law-honeypot) --> Region (Same as Virtual Machine US West 3) --> Review+Create --> Create.
+  <img src="https://i.imgur.com/qUuaxUP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+  <img src="https://i.imgur.com/bffC7jz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Enable Microsoft Defender for Cloud</h2>
+
+  - Search for Microsoft Defender in Azure --> Click on it.
+  - On left go to Environment settings.
+  - Click on resource group name law-honeypot under Azure Subcriptions.
+
+
+ <img src="https://i.imgur.com/uFl0baZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+ <img src="https://i.imgur.com/kvUOxoL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Turn on Foundational CSPM and Servers
+
+<img src="https://i.imgur.com/hDl0CyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Click save --> Click Data Collection --> All Events --> Save
+
+<img src="https://i.imgur.com/0MXD6vf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
 
    
   
