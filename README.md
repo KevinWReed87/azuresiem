@@ -69,22 +69,34 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
  <img src="https://i.imgur.com/uFl0baZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
  <img src="https://i.imgur.com/kvUOxoL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-- Turn on Foundational CSPM and Servers
+ - Turn on Foundational CSPM and Servers
 
-<img src="https://i.imgur.com/hDl0CyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+ <img src="https://i.imgur.com/hDl0CyO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-- Click save --> Click Data Collection --> All Events --> Save
+ - Click save --> Click Data Collection --> All Events --> Save
 
-<img src="https://i.imgur.com/0MXD6vf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+ <img src="https://i.imgur.com/0MXD6vf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-- Go back to Log Analytic Workspace to connect it to the Virtual Machine --> Click your workspace --> Then Virtual Machines.
+ - Go back to Log Analytic Workspace to connect it to the Virtual Machine --> Click your workspace --> Then Virtual Machines.
 
-<img src="https://i.imgur.com/pjj49H9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+ <img src="https://i.imgur.com/pjj49H9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-- Click VM name --> Then connect
+ - Click VM name --> Then press connect for the VM
 
 <img src="https://i.imgur.com/uiQh3vM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/9AtpjCM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Configuring Azure Sentinel SIEM</h2>
+
+ - Search for "Azure Sentinal SIEM" and create a new instance.
+ - Click the Analytic Workspace you want to add and click add.
+
+<img src="https://i.imgur.com/KF9yj6C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/nxtODXf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Log into Virtual Machine to set up environment</h2>
+
+
 
 
 
