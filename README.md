@@ -1,3 +1,8 @@
+ <img src="https://i.imgur.com/REsEWbs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
+
+
 <h1>Enhance Security with SIEM: Threat Detection, Analysis, and Mitigation in Azure</h1>
 
 In this lab, we'll begin by creating a secure Windows 10 VM within the Azure environment. We'll intentionally introduce security gaps, so you can get hands-on experience with threat scenarios. A siem sentinel will be created, along with a live attack map and lab analytics in azure.
