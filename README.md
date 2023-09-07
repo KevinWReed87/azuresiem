@@ -1,4 +1,4 @@
-<h1>Secure Azure Network with OpenVAS: Vulnerability Scans, Analysis, and Remediation</h1>
+<h1>Enhance Security with SIEM: Threat Detection, Analysis, and Mitigation in Azure</h1>
 
 Explore my hands-on vulnerability assessment in this tutorial, where you'll create a Windows 10 VM with security gaps, conduct OpenVAS scans, analyze results, remediate vulnerabilities, and craft realistic remediation simulations.".<br />
 
