@@ -1,6 +1,7 @@
 <h1>Enhance Security with SIEM: Threat Detection, Analysis, and Mitigation in Azure</h1>
 
-Explore my hands-on vulnerability assessment in this tutorial, where you'll create a Windows 10 VM with security gaps, conduct OpenVAS scans, analyze results, remediate vulnerabilities, and craft realistic remediation simulations.".<br />
+In this lab, we'll begin by creating a secure Windows 10 VM within the Azure environment. We'll intentionally introduce security gaps, so you can get hands-on experience with threat scenarios. A siem sentinel will be created, along with a live attack map and lab analytics in azure.
+<br />
 
 
 
@@ -23,11 +24,32 @@ Explore my hands-on vulnerability assessment in this tutorial, where you'll crea
 
 
 
- <h2>Prepare Vulnerability Management Scanner</h2>
+<h2>Prepare Azure Virtual Machine</h2>
+  
+  - In the search box type virtual machine and click it--> Choose create virtual machine.
+  
+  <img src="https://i.imgur.com/6QvRNu0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-* https://portal.azure.com → Go to the Marketplace → “OpenVAS secured and supported by HOSSTED”
-* “Start with a pre-set configuration” → Pick the weakest one
-* “Continue to Create VM”
+  - Choose the appropriate settings for your VM, including the region, resource group, VM name and authenyication details.
+  - Select an operating system image. (Windows 10 Pro)
 
-<img src="https://i.imgur.com/lTzNAVU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+  <img src="https://i.imgur.com/L7mz9Rm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+  - Click next and stop at networking.
+  - Make sure advanced is checked --> Click create new under network security group
+
+   <img src="https://i.imgur.com/AgKOoeF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+  - Remove the default rule then click add a new inbound rule
+
+   <img src="https://i.imgur.com/3cQE7m3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+   - For destination port range put * for anything --> For protocal any --> For action allow --> Priority - 100 --> Name DANGER_ANY_IN
+   - This will allow all traffic from the internet into the virtual machine. Makes the VM very discoverable tp TCP Pings, ICMP Pings and so forth. Don't want the VM to drop any traffic, want it to be very discoverable for for lab purposes.
+
+   <img src="https://i.imgur.com/VAIjndR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+   
+  
+
 
