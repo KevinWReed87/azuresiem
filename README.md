@@ -115,6 +115,45 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
 <img src="https://i.imgur.com/gMB8FSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/8002IAW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
+- Going to create a failed login attempt to observe on event viewer.
+
+<img src="https://i.imgur.com/8LkzPm2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/M0AAR9x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- General info on log shows username used to try and log into account, domain name which is current VM and failure reason which is unknown username and password.
+Workstation name and ip address from login also present.
+
+- Notating this info for when VM goes live for attacks and monitoring the event viewer.
+
+<img src="https://i.imgur.com/D9r4bJi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/x1eZdld.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Turn off Windows Firewall on Virtual Machine</h2>
+
+ - Open Command Line on Local PC and ping public ip address of Virtual Machine to see reply status of VM.
+
+ <img src="https://i.imgur.com/uarnTmA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+ 
+ - Click start --> Type wf.msc --> Windows defender firewall properties.
+
+
+<img src="https://i.imgur.com/4RWxj0P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/SuJJpQJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Domain Profile firwall state off --> Private off --> Public off --> Click apply --> Ok
+
+<img src="https://i.imgur.com/5ehADkc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Now ping request for ip address of VM. Now getting ping request from VM.
+
+<img src="https://i.imgur.com/ZMiaI5T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
+
+
+
+
+
    
 
 
