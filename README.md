@@ -101,6 +101,22 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
 
 <h2>Log into Virtual Machine to set up environment</h2>
 
+ - Go to virtual machines --> Click VM name --> Copy public ip address.
+<img src="https://i.imgur.com/1KoNc3X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/g6kSDh7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+ - Log into VM with RDP --> Put in public ip --> Use created VM credentials.
+
+<img src="https://i.imgur.com/LbxFvG0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/80gXuAV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Click start --> Type Event Viewer --> Click Windows Logs --> Then Security
+
+<img src="https://i.imgur.com/gMB8FSk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/8002IAW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+   
+
 
 
 
