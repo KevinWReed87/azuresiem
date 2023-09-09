@@ -168,6 +168,18 @@ Workstation name and ip address from login also present.
 
 <h2>Run Script to get GeoData from attackers</h2>
 
+- Run script with new API_KEY pasted from site.
+
+<img src="https://i.imgur.com/Ev9m8AP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Copy and paste C:\ProgramData to file explorer to see log file with sample records.
+- Look for failed_rdp
+- Copy and Paste top logs for later use to train the azure log analytics workspace.
+
+<img src="https://i.imgur.com/qg9vUcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/2ATlkti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/Ella6pi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
 
 
 
