@@ -180,6 +180,15 @@ Workstation name and ip address from login also present.
 <img src="https://i.imgur.com/2ATlkti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/Ella6pi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
+<h2>Create custom log in to bring in our community</h2>
+
+- Go back to portal.azure.com --> Type log analytics --> Click the workspace --> Click Tables --> Create --> New Custom Log(MMA-based)
+
+<img src="https://i.imgur.com/KozTeIx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/65R9XmG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/WKx2CYs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
 
 
 
