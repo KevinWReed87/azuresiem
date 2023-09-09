@@ -189,10 +189,19 @@ Workstation name and ip address from login also present.
 <img src="https://i.imgur.com/WKx2CYs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
 - Go back to virtual machines --> Press Windows Key+R --> Type C:\ProgramData\failed_rdp.log --> copy&paste sample host logs.
-- Open notepad and paste sample logs --> Save As failed_rdp.log
+- Open notepad and paste sample logs --> Save As failed_rdp.log --> Click file button in log analytics to browse to file -->
+  go to failed_rdp.log --> Click next.
 
 <img src="https://i.imgur.com/UrPbfJp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/jO7anl3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/cjMdBB4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/lE6LSDX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+-  Path is c:\programdata\failed_rdp.log --> Type is Windows --> Next --> Custom log name FAILED_RDP_WITH_GEO --> Next --> Create.
+
+<img src="https://i.imgur.com/Xxoj3mj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/0GrYjah.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
 
 
 
