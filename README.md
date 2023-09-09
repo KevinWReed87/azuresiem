@@ -58,7 +58,7 @@ In this lab, we'll begin by creating a secure Windows 10 VM within the Azure env
    <img src="https://i.imgur.com/ngpGEfi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
    <img src="https://i.imgur.com/rWOHTJC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
-<h2>Create a Log Abalytics Workspace</h2>
+<h2>Create a Log Analytics Workspace</h2>
 
   - Search log analytics workspace --> Create --> Resource Group (Previous One Created) --> Name (law-honeypot) --> Region (Same as Virtual Machine US West 3) --> Review+Create --> Create.
   <img src="https://i.imgur.com/qUuaxUP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
@@ -147,6 +147,31 @@ Workstation name and ip address from login also present.
 - Now ping request for ip address of VM. Now getting ping request from VM.
 
 <img src="https://i.imgur.com/ZMiaI5T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Geolocation.io API Key/Powershell Script</h2>
+
+- Will use custom powershell script from a github and download raw script to PC.
+
+<img src="https://i.imgur.com/48tL0SM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/8qaNEBE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Open up Powershell ISE on Virtual Machine --> Click New --> Paste Script --> Save to Desktop.
+
+<img src="https://i.imgur.com/dEkZ99G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/MGpaiBT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/13I66ON.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/ti6a2IV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- On browser go to ipgeolocation.io to get new API_KEY --> Sign up for account to recieve API_KEY --> Verify Email --> Log into account --> API_KEY will be shown.
+
+<img src="https://i.imgur.com/uF403BC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<h2>Run Script to get GeoData from attackers</h2>
+
+
+
+
+
 
 
 
