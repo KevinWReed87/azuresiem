@@ -174,7 +174,7 @@ Workstation name and ip address from login also present.
 
 - Copy and paste C:\ProgramData to file explorer to see log file with sample records.
 - Look for failed_rdp
-- Copy and Paste top logs for later use to train the azure log analytics workspace.
+- The samplehost log records will be used later to train the log analytics workspace later.
 
 <img src="https://i.imgur.com/qg9vUcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/2ATlkti.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
@@ -187,6 +187,14 @@ Workstation name and ip address from login also present.
 <img src="https://i.imgur.com/KozTeIx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/65R9XmG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <img src="https://i.imgur.com/WKx2CYs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+- Go back to virtual machines --> Press Windows Key+R --> Type C:\ProgramData\failed_rdp.log --> copy&paste sample host logs.
+- Open notepad and paste sample logs --> Save As failed_rdp.log
+
+<img src="https://i.imgur.com/UrPbfJp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/jO7anl3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
 
 
 
